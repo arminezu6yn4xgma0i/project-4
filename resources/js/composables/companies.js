@@ -1,6 +1,7 @@
 import { ref } from 'vue'
-import { axios } from 'axios';
+import axios from "axios";
 import { useRouter } from 'vue-router';
+
 
 export default function useCompanies() {
     const companies = ref([])
@@ -11,7 +12,6 @@ export default function useCompanies() {
     const getCompanies = async () => {
         let response = await axios.get('/api/companies')
         companies.value = response.data.data;
-        console.log(companies)
     }
 
     const getCompany = async (id) => {
