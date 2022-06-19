@@ -72,8 +72,6 @@ export default {
 
         onMounted(getCompanies)
 
-        console.log(companies)
-
         const deleteCompany = async (id) => {
             if (!window.confirm('Are you sure?')) {
                 return

@@ -24782,7 +24782,6 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
         destroyCompany = _useCompanies.destroyCompany;
 
     (0,vue__WEBPACK_IMPORTED_MODULE_1__.onMounted)(getCompanies);
-    console.log(companies);
 
     var deleteCompany = /*#__PURE__*/function () {
       var _ref = _asyncToGenerator( /*#__PURE__*/_regeneratorRuntime().mark(function _callee(id) {

@@ -1,5 +1,5 @@
 const mix = require('laravel-mix');
-import Vue from 'vue';
+import Vue from "vue";
 
 /*
  |--------------------------------------------------------------------------
